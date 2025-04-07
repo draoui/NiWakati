@@ -1,0 +1,9 @@
+            <div className="prose prose-lg dark:prose-invert">
+              <p>
+                Pour plus d'informations sur nos activités, consultez notre{' '}
+                <Link href="/calendar" className="text-primary hover:underline">
+                  calendrier des activités
+                </Link>
+                .
+              </p>
+            </div>

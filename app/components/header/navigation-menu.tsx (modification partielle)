@@ -1,0 +1,6 @@
+const navItems = [
+  { href: "/about", label: "À propos" },
+  { href: "/calendar", label: "Activités" }, // Mis à jour de /activities vers /calendar
+  { href: "https://blog.ni-wakati.be", label: "Actualités", external: true },
+  { href: "/contact", label: "Contact" },
+]

@@ -1,0 +1,29 @@
+      {/* Hero Section */}
+      <section className="relative flex min-h-[80vh] items-center justify-center">
+        <Image
+          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2000"
+          alt="Groupe diversifié de personnes souriantes"
+          fill
+          priority
+          className="absolute inset-0 object-cover brightness-50"
+        />
+        <div className="relative container mx-auto px-4 py-12 text-center text-white z-10">
+          <h1 className="mb-6 text-4xl font-bold md:text-6xl">
+            Ni Wakati ASBL
+          </h1>
+          <p className="mb-8 text-xl">
+            Favoriser l'intégration des personnes étrangères et réfugiées en Belgique
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button size="lg" variant="default" className="bg-white text-black hover:bg-white/90" asChild>
+              <Link href="/donate">Faire un don</Link>
+            </Button>
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/20" asChild>
+              <Link href="/volunteer">Devenir bénévole</Link>
+            </Button>
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/20" asChild>
+              <Link href="/membership">Adhérer</Link>
+            </Button>
+          </div>
+        </div>
+      </section>

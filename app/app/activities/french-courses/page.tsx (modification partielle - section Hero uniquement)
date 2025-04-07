@@ -1,0 +1,16 @@
+      {/* Hero Section */}
+      <section className="relative h-[40vh] min-h-[400px]">
+        <Image
+          src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2000"
+          alt="Cours de français en groupe"
+          fill
+          priority
+          className="object-cover brightness-50"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="container px-4 text-center text-white">
+            <h1 className="mb-4 text-4xl font-bold md:text-5xl">Cours de Français</h1>
+            <p className="text-xl">Apprenez le français dans une ambiance conviviale et bienveillante</p>
+          </div>
+        </div>
+      </section>

@@ -1,0 +1,12 @@
+            <NavigationMenuItem>
+              <Link 
+                href="https://blog.ni-wakati.be" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center"
+              >
+                <span>Actualités</span>
+                {/* Optional: Add external link icon */}
+                <ExternalLink className="ml-1 h-4 w-4" />
+              </Link>
+            </NavigationMenuItem>

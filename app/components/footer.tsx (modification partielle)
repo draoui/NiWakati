@@ -1,0 +1,7 @@
+const quickLinks = [
+  { href: "/about", label: "À propos" },
+  { href: "/calendar", label: "Activités" }, // Mis à jour
+  { href: "/volunteer", label: "Bénévolat" },
+  { href: "/donate", label: "Faire un don" },
+  { href: "/contact", label: "Contact" },
+]

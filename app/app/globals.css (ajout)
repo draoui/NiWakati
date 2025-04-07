@@ -1,0 +1,23 @@
+/* Section containers */
+.section-container {
+  @apply container mx-auto px-4 max-w-7xl;
+}
+
+/* Card hover effects */
+.contact-card {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
+/* Responsive spacing utilities */
+.section-spacing {
+  @apply py-8 md:py-12 lg:py-16;
+}
+
+/* Content width constraints */
+.content-narrow {
+  @apply max-w-3xl mx-auto;
+}
+
+.content-wide {
+  @apply max-w-5xl mx-auto;
+}
